@@ -125,7 +125,7 @@ params:
     title: "Maryam."
     subtitle: "I design and manage courses."
     content: "A passionate instructional designer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
-    image: /images/hero.jpg
+    image: images/hero.jpg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
