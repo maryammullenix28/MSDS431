@@ -53,7 +53,7 @@ Menus:
 params:
   title: "Maryam Mullenix"
   description: "Personal resume website"
-  # staticPath: ""  # The path to serve the static files from
+  # staticPath: "images"  # The path to serve the static files from
   favicon: "mm-dark.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
@@ -147,44 +147,62 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
+    image: "DSC00062.jpg"
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. 
+      With a background in data science and communication analysis, I bring a unique technical perspective to instructional design and project management. I'm passionate about bringing in new technologies and functionalities to courses to enhance the students' learning experiences. I'm currently working as an instructional design consultant at Outlier.org bringing career certificates to for-credit higher education courses.
 
-      I am currently working on a project that will be used to help people find the best way to get around the city.
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
       items:
+        - "Python"
+        - "Go"
         - "HTML"
         - "CSS"
-        - "JavaScript"
-        - "React"
-        - "Node"
-        - "Express"
+        - "SQL"
 
   # Experience
   experience:
     enable: true
-    # title: "Custom Name"
+    title: "Work Experience"
     items:
-      - job: "Senior Software Developer"
-        company: "Facebook"
-        companyUrl: "https://example.com"
-        date: "Jan 2022 - present"
-        featuredLink:
-          enable: true
-          name: "View the project"
-          url: "https://example.com"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+      - job: "Instructional Design Consultant"
+        company: "Outlier.org"
+        companyUrl: "https://outlier.org"
+        date: "Sept 2021 - present"
+        # featuredLink:
+        #  enable: true
+        #  name: "View the project"
+        #  url: "https://example.com"
+        content: "I am currently working as an instructional design consultant incoporating Coursera career certificates to accredited higher education online courses.
+        
+        - Assisted in company-wide program management of the launch of three degree programs.
 
-      - job: "Software Developer"
-        company: "Amazon"
-        companyUrl: "https://example.com"
-        date: "Sep 2020 - Dec 2021"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
+        - Led development of 5 credit-bearing certificate courses alongside institutional partners.
+
+        - Analyzed lecture video engagement data with students’ academic outcomes to discover correlation and student motivation insights using SQL and Python.
+        
+        - Created curricula and conceptualized course format, content, and presentation in collaboration with professors and subject matter experts.
+        
+        - Worked cross-functionally with Video, Product, and Marketing teams during course development and launch.
+        
+        - Provided marketing recommendations based on exploratory analysis of federal Pell grant payment schedules and undergraduate EFC.
+        
+        - Improved and automated Content team's progress tracking and reporting using spreadsheets and Monday.com.
+
+        
+        
+        Prior to consulting, I worked as an Instructional Design Manager and Jr. Course Development Manager at the company.
+        "
+
+
+      - job: "Associate Content Developer"
+        company: "Salsify"
+        companyUrl: "https://salsify.com"
+        date: "Jan 2020 - Sept 2021"
+        #featuredLink:
+        #  enable: true
+        #  url: "https://example.com"
         info:
           enable: true
           content: I worked as a software developer for more than one year in Amazon.
@@ -194,39 +212,6 @@ params:
           - Lead backend developer for a product.
           - Created a frontend design for a product.
 
-      - job: "Junior Software Developer"
-        company: "Apple"
-        companyUrl: "https://example.com"
-        date: "Jan 2020 - Aug 2020"
-        info:
-          enable: false
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "UI/UX Designer"
-        company: "Netflix"
-        companyUrl: "https://example.com"
-        date: "June 2017 - Nov 2019"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "Product Designer"
-        company: "Google"
-        companyUrl: "https://example.com"
-        date: "Feb 2016 - Mar 2017"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
 
   # Education
   education:
