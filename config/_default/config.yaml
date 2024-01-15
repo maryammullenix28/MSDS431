@@ -133,8 +133,8 @@ params:
       enable: true
       name: "Resume"
       url: "https://drive.google.com/file/d/1BiWuFOrsf8LEJJ1qlXuBWN8GAOhJ1zbt/view?usp=sharing"
-      download: true
-      newPage: false
+      download: false
+      newPage: true
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github 
