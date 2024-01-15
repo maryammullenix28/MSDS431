@@ -24,11 +24,11 @@
     border: none !important;
 }
 
-#projects .card:hover {
+/* #projects .card:hover {
     box-shadow: 0 0 11px rgb(15 80 100 / 20%);
     transition: transform 0.3s;
     transform: translateY(-7px);
-}
+} */
 
 #projects .card .card-head {
     -o-object-fit: cover;
@@ -44,10 +44,10 @@
     border-bottom-right-radius: 1rem;
 }
 
-#projects .card:hover .card-img-top {
+/* #projects .card:hover .card-img-top {
     transform: scale(1.2);
     transition: all 0.3s ease-out;
-}
+} */
 
 #projects .card-img-top {
     transition: transform 0.3s;

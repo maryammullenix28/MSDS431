@@ -23,8 +23,8 @@ markup:
 Menus:
   main:
     - identifier: skills
-      name: Skills
-      title: "Skills & Tools"
+      #name: Skills
+      #title: "Skills & Tools"
       #url: /skills
       weight: 1
     # - identifier: gallery
@@ -151,15 +151,54 @@ params:
     content: |-
       With a background in data science and communication analysis, I bring a unique technical perspective to instructional design and project management. I'm passionate about bringing in new technologies and functionalities to courses to enhance the students' learning experiences. I'm currently working as an instructional design consultant at Outlier.org bringing career certificates to for-credit higher education courses.
 
-    skills:
-      enable: true
-      title: "Here are a few technologies I've been working with recently:"
-      items:
-        - "Python"
-        - "Go"
-        - "HTML"
-        - "CSS"
-        - "SQL"
+      Here are a few technologies I've been working with recently:
+
+      Data Science & Analytics
+
+      - Python
+      - Go
+      - Statistics
+      - Machine learning
+      - NLP
+      - Data visualizations
+
+
+      Collaboration & Project Management
+
+      - Trello
+      - Slack
+      - Jira
+      - Airtable
+      - Zapier
+      - Monday.com
+
+
+      Course Authoring Tools
+
+      - Google Workspace
+      - MS Office Suite
+      - Adobe Creative Cloud (Premiere Pro, After Effects, Illustrator, InDesign)
+      - Adobe Captivate
+      - Articulate
+
+
+      LMS & Content Management
+
+      - Knowledge Owl
+      - Canvas
+      - Skilljar
+      - Readme.io
+      - Frame.io
+      - Kaltura
+      - DatoCMS
+
+
+      Languages
+
+      - English
+      - Malay
+
+
 
   # Experience
   experience:
@@ -235,22 +274,19 @@ params:
         #GPA: "3.8 out of 5.0"
         content: |-
           Coursework:
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+            - Natural Language Processing
+            - Artificial Intelligence
+            - Practical Machine Learning
+            - Decision Analytics
+            - Database Systems
       - title: "Bachelor of Arts in Communication"
         school:
           name: "University of Massachusetts Amherst"
           #url: "https://example.org"
         date: "2018 - 2020"
         # GPA: "3.9 out of 5.0"
-        content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+        #content: |-
+          
 
   # Achievements
   achievements:
@@ -276,26 +312,26 @@ params:
 
   # projects
   projects:
-    enable: true
-    title: "Skills"
+    enable: false
+    title: "Projects"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
-        featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
-        badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+      - title: Predictive Analysis of Loan Default Probabilities and Loss Amounts
+        content: Developed tree-based, regression, and TensorFlow models for predictive analysis of customers' loan default probabilities and amount loss if defaulted with accuracies of about 96%.
+        # image: /images/projects/profile.png
+        #featured:
+          #name: Demo
+          #link: https://hugo-profile.netlify.app
+        #badges:
+          #- "Hugo"
+          #- "Bootstrap"
+          #- "Javascript"
+        #links:
+          #- icon: fa fa-envelope
+          #  url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          #- icon: fab fa-github
+          #  url: https://github.com/gurusabarish/hugo-profile
+          #- icon: fab fa-twitter
+          #  url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
       - title: Image Converter
         content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
@@ -310,25 +346,33 @@ params:
           - icon: fab fa-github
             url: https://github.com/gurusabarish/converter
 
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
-        badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+  project:
+    enable: true
+    title: "Projects"
+    items:
+      - job: "Predictive Analysis of Loan Default Probabilities and Loss Amounts"
+        projectName: "Predictive Analysis"
+        company: "Northwestern University"
+        #companyUrl: "https://outlier.org"
+        #date: "Sept 2021 - present"
+        # featuredLink:
+        #  enable: true
+        #  name: "View the project"
+        #  url: "https://example.com"
+        content: "Developed tree-based, regression, and TensorFlow models for predictive analysis of customers' loan default probabilities and amount loss if defaulted. Models resulted in 96% predictive accuracy.
+        "
+      
+      - job: "Resource Allocation of Chicago Food Inspectors"
+        projectName: "NoSQL Database Data Analysis"
+        company: "Northwestern University"
+        content: "Interacted with NoSQL database to query and fine-tune search results for better precision, accuracy, & relevance. Created Heatmap of frequent violators who have obtained 3 business licenses or more under the same DBA Name through out the liftime of their business.
+        "
 
   #Contact
   contact:
     enable: true
     title: "Let's get in touch!"
-    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+    content: I'd love to work with you! Please reach out for any projects or collaborations.
     email: maryamemullenix@gmail.com
     btnName: Connect
     # formspree:
@@ -342,14 +386,11 @@ params:
       path: "blogs"
       count: 3
       title: Recent Posts
-      enable: true
+      enable: false
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      github: https://github.com/maryammullenix28
+      linkedin: https://www.linkedin.com/in/maryammullenix/
 
   # List pages like blogs and posts
   listPages:
@@ -358,7 +399,7 @@ params:
   # Single pages like blog and post
   singlePages:
     readTime:
-      enable: true
+      enable: false
       content: "min read"
     scrollprogress:
       enable: true
